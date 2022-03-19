@@ -1,0 +1,17 @@
+.navbar a {
+  font-family: "Oswald", sans-serif;
+  height: 100%;
+  padding: 1rem;
+}
+.active,
+.navbar a:hover {
+  background-color: #0dcaf0;
+  color: white;
+}
+.navbar {
+  height: 100%;
+  padding: 0;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+}

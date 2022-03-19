@@ -14,12 +14,12 @@ setIsOver(newPrgf)
 
   return (
     <div>
-        <div id="image-container" className="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xxl-4 g-3">
+        <div id="image-container" className="row row-cols-1 row-cols-md-2 row-cols-lg-3  g-5 p-3">
 {data.map((cardItem)=>{
     return(
       <div className="container" key={cardItem.id}>
-        <div className="card"  /* onMouseOver={()=>handleOver(cardItem)} */>
-        <h2 className="card-title">{cardItem.title}</h2>
+        <div className="card bg-dark text-white text-start p-3"  /* onMouseOver={()=>handleOver(cardItem)} */>
+        <h2 className="card-title my-3 ">{cardItem.title.toUpperCase()}</h2>
         <img
           className="card-img"
           src={cardItem.image}

@@ -4,9 +4,9 @@ import "./Header.css"
 
 function Header() {
   return (
-    <div>
+    <header className='d-flex text-center justify-content-center bg-dark '>
         <Navbar/>
-    </div>
+    </header>
   )
 }
 

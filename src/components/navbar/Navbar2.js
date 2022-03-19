@@ -1,14 +1,12 @@
-import React from "react";
 import "./Navbar.css"
 
 function Navbar() {
+
   return (
     <div>
-      <div className="navbar navbar-expand-md navbar-light bg-light">
-        <div className="container-fluid">
-          <a className="navbar-brand" href="#top" >
-            Navbar
-          </a>
+      <div className="navbar navbar-expand-md navbar-dark p-0">
+        <div className="container-fluid ">
+          
           <button
             className="navbar-toggler"
             type="button"
@@ -23,30 +21,36 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#top">
-                  Home
+                <a className="nav-link active" aria-current="page" href="aboutus">
+                  ABOUT US
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#top">
-                  Features
+                <a className="nav-link" href="foryou">
+                  FOR YOU
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#top">
-                  Pricing
+                <a className="nav-link" href="services">
+                  SERVICES
                 </a>
               </li>
               <li className="nav-item">
-                <a
-                  className="nav-link disabled"
-                  href="#top"
-                  tabIndex="-1"
-                  aria-disabled="true"
-                >
-                  Disabled
+                <a className="nav-link" href="blog">
+                  BLOG
                 </a>
               </li>
+              <li className="nav-item">
+                <a className="nav-link" href="vlog">
+                  VLOG
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="contact">
+                  CONTACT
+                </a>
+              </li>
+              
             </ul>
           </div>
         </div>
