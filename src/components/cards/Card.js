@@ -1,5 +1,4 @@
 import React from "react";
-import { data } from "../../helper/data";
 import "./Card.css"
 function Card(props) {
 /* const [isOver,setIsOver]= useState(false)

@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
-
 #image-container{
   margin: 0;
 }
@@ -21,7 +19,6 @@
 .card:hover .overlay {
   height: 40%;
   width: 100%;
-  filter: grayscale(100%);
 }
 .card-img-desc {
   color: white;
@@ -51,10 +48,6 @@
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: pre;
-  font-family: "Amatic SC", cursive;
 }
 
 
-.active {
-  background-color: #0dcaf0;
-}

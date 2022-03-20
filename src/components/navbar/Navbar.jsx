@@ -13,7 +13,7 @@ const NavBar = () => {
     return (
         <>
             <Navbar bg="dark" variant="dark">
-                <Nav className="me-auto">
+                <Nav className="mx-auto fs-4">
                     {
                         Object.keys(tabs).map(id => {return( <NavLink key={id} href={"/" + tabs[id].link}>{tabs[id].name}</NavLink>
                         )})

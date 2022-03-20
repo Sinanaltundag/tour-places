@@ -1,11 +1,11 @@
 import React from 'react'
-import Navbar from '../navbar/Navbar'
 import "./Header.css"
 
 function Header() {
   return (
-    <header className='d-flex text-center justify-content-center bg-dark '>
-        <Navbar/>
+    <header className='text-center'>
+        
+        <h1 style={{marginTop:"10px"}}>POPULAR TOUR PLACES</h1>
     </header>
   )
 }
