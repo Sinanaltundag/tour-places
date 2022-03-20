@@ -1,7 +1,7 @@
 import React from "react";
 import { data } from "../../helper/data";
 import "./Card.css"
-function Card() {
+function Card(props) {
 /* const [isOver,setIsOver]= useState(false)
 
 const handleOver=(em)=>{
@@ -13,29 +13,24 @@ setIsOver(newPrgf)
 } */
 
   return (
-    <div>
-        <div id="image-container" className="row row-cols-1 row-cols-md-2 row-cols-lg-3  g-5 p-3">
-{data.map((cardItem)=>{
-    return(
-      <div className="container" key={cardItem.id}>
-        <div className="card bg-dark text-white text-start p-3"  /* onMouseOver={()=>handleOver(cardItem)} */>
-        <h2 className="card-title my-3 ">{cardItem.title.toUpperCase()}</h2>
+    
+
+      <div>
+        <div className="card bg-dark text-white text-start p-3 m-3"  /* onMouseOver={()=>handleOver(cardItem)} */>
+        <h2 className="card-title my-3 ">{props.title}</h2>
         <img
           className="card-img"
-          src={cardItem.image}
+          src={props.imgSrc}
           alt="nice place"
         />
         <div className="overlay">
-         {/* {isOver ?  */}
           <p className="card-img-desc">
-            {cardItem.desc}
+            {props.desc}
           </p>
-          {/* :null} */}
         </div>
-      </div>
-      </div>
-    )
-})}
+    
+    
+
 
 
      
