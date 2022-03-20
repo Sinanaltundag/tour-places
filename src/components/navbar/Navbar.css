@@ -1,5 +1,5 @@
 .navbar a {
-  font-family: "Oswald", sans-serif;
+  font-family: 'Amatic SC', cursive;
   height: 100%;
   padding: 1rem;
 }
@@ -12,6 +12,6 @@
   height: 100%;
   padding: 0;
   color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Amatic SC', cursive;
   text-decoration: none;
 }
