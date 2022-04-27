@@ -3,12 +3,12 @@ import "./Navbar.css"
 const NavBar = () => {
 
     let tabs = [
-        { name: "ABOUT US", link: "about" },
-        { name: "FOR YOU", link: "foryou" },
-        { name: "SERVICES", link: "services" },
-        { name: "BLOG", link: "blog" },
-        { name: "VLOG", link: "vlog" },
-        { name: "CONTACT", link: "contact" }
+        { name: "ABOUT US", link: "#" },
+        { name: "FOR YOU", link: "#" },
+        { name: "SERVICES", link: "#" },
+        { name: "BLOG", link: "#" },
+        { name: "VLOG", link: "#" },
+        { name: "CONTACT", link: "#" }
     ];  
     return (
         <>
