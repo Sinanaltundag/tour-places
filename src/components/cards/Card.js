@@ -1,15 +1,6 @@
 import React from "react";
 import "./Card.css";
 function Card(props) {
-  /* const [isOver,setIsOver]= useState(false)
-
-const handleOver=(em)=>{
-    console.log(em);
-let newPrgf=  data.filter((item)=>{
-  return  (em.id===item.id) 
-})
-setIsOver(newPrgf)
-} */
 
   return (
     <div
@@ -20,7 +11,7 @@ setIsOver(newPrgf)
         <div className="col">
           <div
             className="card bg-dark text-white text-start p-3"
-            key={card.id} /* onMouseOver={()=>handleOver(cardItem)} */
+            key={card.id} 
           >
             <h2 className="card-title my-3 ">{card.title}</h2>
             <img className="card-img" src={card.image} alt="nice place" />
